@@ -1,3 +1,5 @@
+<?php require "../app/functions/pages/php";?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,8 +20,8 @@
 <body>
     <h2>Curso de php</h2>
     <div class="container">
-        <?php print_r($_GET);
-        
+        <?php 
+            require load();
         ?>
         
     </div>
